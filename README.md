@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently doing an internship at [NeuroN Foundation](https://neuronfoundation.com/), which [I hacked](https://web.archive.org/web/20230902084403/http://neuronfoundation.com/) (with their consent).
 
-- 👯 I'm currently doing tasks for: [Sealcode](https://www.sealcode.it/)
+- 👯 I'm currently doing tasks for [Sealcode](https://www.sealcode.it/)
 
 - 🌱 I hosted servers on: **Debian, Ubuntu, RHEL, FreeBSD, OpenBSD, DragonflyBSD**
 
