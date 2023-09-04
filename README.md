@@ -17,7 +17,7 @@
 
 - 📄 Know about my experiences: [Resume](https://lubiak.pages.dev/resume.pdf)
 
-- ⚡ Fun fact: **I'm interested in constructed languages, I know Esperanto, toki pona and lojban. [I'm quite good at chess.](https://lichess.org/@/funtoomen) I can solve Rubik's Cube in 30 secounds.**
+- ⚡ Fun facts: **I'm interested in constructed languages, I know Esperanto, toki pona and lojban. [I'm quite good at chess.](https://lichess.org/@/funtoomen) I can solve Rubik's Cube in 30 secounds.**
 
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=mikolajlubiak&show_icons=true&locale=en&layout=compact" alt="My Github stats" /></p>
