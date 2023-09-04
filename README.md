@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Mikołaj</h1>
 <h3 align="center">Backend developer interested in cryptology, system administration and open source.</h3>
 
-- 🔭 I’m currently doing internship at [NeuroN Foundation](https://neuronfoundation.com/)
+- 🔭 I’m currently doing internship at [NeuroN Foundation](https://neuronfoundation.com/), which [I hacked](https://web.archive.org/web/20230901185811/http://neuronfoundation.com/index.php/2023/09/01/bug-na-stronie/).
 
 - 👯 I’m working at [Sealcode](https://www.sealcode.it/)
 
