@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mikołaj</h1>
-<h3 align="center">Backend developer interested in cryptology, system administration and open source.</h3>
+<h3 align="center">Backend developer interested in cryptology, system administration, cybersecurity and open source.</h3>
 
 - 🔭 I’m currently doing an internship at [NeuroN Foundation](https://neuronfoundation.com/), which [I hacked](https://web.archive.org/web/20230902084403/http://neuronfoundation.com/) (with their consent).
 
