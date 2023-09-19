@@ -1,25 +1,18 @@
-<h1 align="center">Hi 👋, I'm Mikołaj</h1>
-<h3 align="center">Backend developer interested in cryptology🔑, system administration💻, cybersecurity🛡 and open source🄯.</h3>
+# Hi 👋, I'm Mikołaj
+### Backend developer interested in cryptology🔑, system administration💻, cybersecurity🛡 and open source🄯.
 
-- 🧑‍💻️ I’m doing an internship at the [NeuroN Foundation](https://neuronfoundation.com/), which [I hacked](https://web.archive.org/web/20230902084403/http://neuronfoundation.com/). <sup>(with their consent)</sup>
+- 🧑‍💻️ I’m doing an internship at the [NeuroN Foundation](https://neuronfoundation.com/), which [I hacked](https://web.archive.org/web/20230902084403/http://neuronfoundation.com/). ^(with their consent)^
 
-- 📝 I'm currently doing commissions for [Sealcode](https://www.sealcode.it/).
+- 📝 I'm currently doing commissions for [Sealcode](https://www.sealcode.it/) and [Go2Ops](https://go2ops.com/).
 
-- 🖥 I have experience hosting servers on:
-    - Debian
-    - Ubuntu
-    - RHEL
-    - FreeBSD
-    - OpenBSD
-    - DragonFlyBSD
+- 🖥 I have experience with these OS families:
+    - Linux
+    - \*BSD
 
 - 🐍 My main programming languages are:
     - Python
     - C++
     - Go
-    - Lua
-    - PHP
-    - Shell
 
 - 🗄 All of my projects are available at [GitHub](https://github.com/mikolajlubiak) or [Codeberg](https://codeberg.org/mikolajlubiak).
 
