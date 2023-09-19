@@ -1,7 +1,7 @@
 # Hi 👋, I'm Mikołaj
 ### Backend developer interested in cryptology🔑, system administration💻, cybersecurity🛡 and open source🄯.
 
-- 🧑‍💻️ I’m doing an internship at the [NeuroN Foundation](https://neuronfoundation.com/), which [I hacked](https://web.archive.org/web/20230902084403/http://neuronfoundation.com/). ^(with their consent)^
+- 🧑‍💻️ I’m doing an internship at the [NeuroN Foundation](https://neuronfoundation.com/), which [I hacked](https://web.archive.org/web/20230902084403/http://neuronfoundation.com/).
 
 - 📝 I'm currently doing commissions for [Sealcode](https://www.sealcode.it/) and [Go2Ops](https://go2ops.com/).
 
