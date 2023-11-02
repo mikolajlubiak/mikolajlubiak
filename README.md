@@ -2,9 +2,7 @@
 
 ### Backend developer interested in cryptology🔑, system administration💻, cybersecurity🛡 and open source🄯.
 
-- 🧑‍💻️ I’m doing an internship at the [NeuroN Foundation](https://neuronfoundation.com/), which [I hacked](https://web.archive.org/web/20230902084403/http://neuronfoundation.com/).
-
-- 📝 I'm currently doing commissions for [Sealcode](https://www.sealcode.it/) and [Go2Ops](https://go2ops.com/).
+- 🧑‍💻️ I'm currently working at [Sealcode](https://www.sealcode.it/) as a open source contributor, at [Go2Ops](https://go2ops.com/) working on [Timoni](https://timoni.io/) and at [NeuroN Foundation](https://neuronfoundation.com/), which [I hacked](https://web.archive.org/web/20230902084403/http://neuronfoundation.com/), as backend developer and sysadmin at [Lesson4Future](https://app.lesson4future.com/).
 
 - 🖥 I have experience with these OS families:
 	- Linux
@@ -27,13 +25,13 @@
 
 - 🗃️ Some of my bigger projects in:
 	- Python:
-		- https://codeberg.org/mikolajlubiak/motey
-		- https://codeberg.org/mikolajlubiak/ttg
+		- https://github.com/mikolajlubiak/motey
+		- https://github.com/mikolajlubiak/ttg
 	- C++:
-		- https://codeberg.org/mikolajlubiak/vectng
+		- https://github.com/mikolajlubiak/vectng
 	- Golang:
-		- https://codeberg.org/mikolajlubiak/nofiles
-		- https://codeberg.org/mikolajlubiak/xmrminer
+		- https://github.com/mikolajlubiak/nofiles
+		- https://github.com/mikolajlubiak/xmrminer
 
 - 🗄 All of my projects are available at [GitHub](https://github.com/mikolajlubiak) or [Codeberg](https://codeberg.org/mikolajlubiak).
 
