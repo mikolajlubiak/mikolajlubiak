@@ -35,7 +35,7 @@
 
 - You can get in contact with me by [email](mailto:lubiak@proton.me) ([PGP key](https://keys.openpgp.org/search?q=lubiak%40proton.me)) or [Matrix protocol](https://matrix.to/#/@galanonim:matrix.org).
 
-- If you consider hiring me, here is my [resume](https://lubiak.pages.dev/resume.pdf).
+- If you consider hiring me, here is my [resume](https://lubiak.pages.dev/resume.pdf) and here is my [Linkedin](https://www.linkedin.com/in/lubiak/).
 
 - Fun facts: I'm interested in conlangs, I know Esperanto. [I'm not that bad at chess.](https://lichess.org/@/funtoomen) I can solve Rubik's cube quite fast.
 
