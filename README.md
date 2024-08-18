@@ -17,6 +17,7 @@ I also do orders from private entities.
 		- https://github.com/mikolajlubiak/motey
 	- C++:
 		- https://github.com/mikolajlubiak/vectng
+            - [Showcase](https://video.infosec.exchange/w/p/cFLjJxXbA5sT9ioXFT26Zq)
         - https://github.com/mikolajlubiak/vulkan
             - [Showcase](https://video.infosec.exchange/w/p/15nyK7rmMetaHcmsGfL5Rr)
         - https://github.com/mikolajlubiak/espcon
