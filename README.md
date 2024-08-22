@@ -13,10 +13,11 @@ I also do orders from private entities.
     - [Lesson4Future](https://lesson4future.com/) as a lead backend developer and sysadmin. [Lesson4Future](https://lesson4future.com/) is a project made for [Narodowy Bank Polski](https://nbp.pl/).
 
 - 🗂 My biggest projects in:
-	- Python:
-		- https://github.com/mikolajlubiak/motey
-	- C++:
-		- https://github.com/mikolajlubiak/vectng
+    - Python:
+        - https://github.com/mikolajlubiak/motey
+            - [Showcase](https://video.infosec.exchange/w/p/7LLkXivqVndR5VQTDbKZFP)
+    - C++:
+        - https://github.com/mikolajlubiak/vectng
             - [Showcase](https://video.infosec.exchange/w/p/cFLjJxXbA5sT9ioXFT26Zq)
         - https://github.com/mikolajlubiak/vulkan
             - [Showcase](https://video.infosec.exchange/w/p/15nyK7rmMetaHcmsGfL5Rr)
