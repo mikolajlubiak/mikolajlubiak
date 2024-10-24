@@ -18,7 +18,7 @@ I also do orders from private entities.
         - https://github.com/mikolajlubiak/motey [Showcase](https://video.infosec.exchange/w/p/7LLkXivqVndR5VQTDbKZFP)
     - C++:
         - https://github.com/mikolajlubiak/memory [Showcase](https://video.infosec.exchange/w/p/fxme6he9a3h8AAHQHrrMG4)
-        - https://github.com/mikolajlubiak/terminal\_animation [Showcase](https://video.infosec.exchange/w/p/vYM6TsSBMGEg1DRHMADXu2)
+        - https://github.com/mikolajlubiak/terminal_animation [Showcase](https://video.infosec.exchange/w/p/vYM6TsSBMGEg1DRHMADXu2)
         - https://github.com/mikolajlubiak/vlkn [Showcase](https://video.infosec.exchange/w/p/oRWze5L2wpb8tULWdEon8G)
         - https://github.com/mikolajlubiak/vectng [Showcase](https://video.infosec.exchange/w/p/cFLjJxXbA5sT9ioXFT26Zq)
         - https://github.com/mikolajlubiak/espcon [Showcase](https://video.infosec.exchange/w/p/oQ5QCWFV5TxV9F3JkxzUYx)
