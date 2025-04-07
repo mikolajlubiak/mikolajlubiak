@@ -19,6 +19,8 @@
 
 - 🗄 All of my projects are available at [GitHub](https://github.com/mikolajlubiak) or [Codeberg](https://codeberg.org/mikolajlubiak).
 
+- 🤔 I'm interested in chess, open source, gym, Fediverse and the Linux kernel and ecosystem.
+
 - 📰 I write articles on [my website](https://lubiak.pages.dev/) when I have something interesting to say.
 
 - 📬 You can get in contact with me by [email](mailto:lubiak@proton.me) ([PGP key](https://keys.openpgp.org/search?q=lubiak%40proton.me)), or [Signal](https://signal.me/#eu/nq4qY30m4xgeCZ7R5IGoSUGbBK0n8Jg1Axi0cxbl3zAQdo3ikJVFioC_didTHi_F).
