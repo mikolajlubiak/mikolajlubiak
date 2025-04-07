@@ -1,6 +1,6 @@
 # Hi 👋, I'm Mikołaj
 
-### Backend developer interested in real-time rendering and embedded.
+### I'm doing C++ (embedded, real time rendering, low level and security), Python (backend) and Flutter (frontend).
 
 - 🗂 My biggest projects in:
     - C++:
@@ -9,8 +9,10 @@
         - https://github.com/mikolajlubiak/pixelpin
     - Python:
         - https://github.com/mikolajlubiak/motey
+        - Backend of app.focus-stones.pl
     - Flutter:
         - https://github.com/mikolajlubiak/pixelpin-app
+        - Frontend of app.focus-stones.pl
 
 - 🎥 You can find my project video showcases here:
     - https://video.infosec.exchange/c/gall_anonim_/video-playlists
@@ -22,5 +24,4 @@
 - 📬 You can get in contact with me by [email](mailto:lubiak@proton.me) ([PGP key](https://keys.openpgp.org/search?q=lubiak%40proton.me)), or [Signal](https://signal.me/#eu/nq4qY30m4xgeCZ7R5IGoSUGbBK0n8Jg1Axi0cxbl3zAQdo3ikJVFioC_didTHi_F).
 
 - 📄 If you consider hiring me, here is my [resume](https://lubiak.pages.dev/resume.pdf) and here is my [Linkedin](https://www.linkedin.com/in/lubiak/).
-
 
