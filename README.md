@@ -9,10 +9,8 @@
         - https://github.com/mikolajlubiak/pixelpin
     - Python:
         - https://github.com/mikolajlubiak/motey
-        - Backend of https://app.focus-stones.pl/
     - Flutter:
         - https://github.com/mikolajlubiak/pixelpin-app
-        - Frontend of https://app.focus-stones.pl/
 
 - 🐧 My biggest open source contributions:
     - Intel® Cryptography Primitives: https://github.com/intel/cryptography-primitives/pull/95
