@@ -1,49 +1,58 @@
-# Hi 👋, I'm Mikołaj
+<div align="center">
 
-I like knowing how things work underneath - whether that's userspace programs, operating systems, bootloaders, or the silicon itself. I write C and C++ for a living and for fun.
+# Mikołaj Lubiak
 
-On my own time I build things from scratch to understand them fully:
-* A Vulkan game engine with 13+ abstraction modules covering the full rendering pipeline
-* A custom x86 operating system with a 2-stage real-mode bootloader and FAT12 filesystem
-* A BLE-connected e-paper wearable on ESP32 with custom binary protocol and image dithering
-* A game console engine running a software 3D rasterizer on a microcontroller
-* A multithreaded tool that converts video into colored animated ASCII art in real time
+Systems programmer. I like knowing how things work — userspace, kernels, bootloaders, silicon.  
+C and C++ for a living and for fun.
 
-I contribute upstream too. My fix to Intel's Cryptography Primitives Library cut ~10% CPU time and ~50% instructions in multithreaded hashing workloads. My SliderWithCallback addition to FTXUI was merged by the maintainer. I've been published in PagedOut! #6, Gynvael Coldwind's technical zine.
+[![Email](https://img.shields.io/badge/email-lubiak%40proton.me-1976D2?style=flat-square&logo=protonmail&logoColor=white)](mailto:lubiak@proton.me)
+[![Website](https://img.shields.io/badge/website-lubiak.pages.dev-1976D2?style=flat-square&logo=firefox&logoColor=white)](https://lubiak.pages.dev/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-lubiak-1976D2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lubiak/)
+[![Codeberg](https://img.shields.io/badge/codeberg-mikolajlubiak-1976D2?style=flat-square&logo=codeberg&logoColor=white)](https://codeberg.org/mikolajlubiak)
 
-I started coding at 11, did my first paid gig at 13, competed nationally in C++ at 17, moved cities alone at 18 for my first full-time job, and reached senior at 19. I got here by being stubborn - I gave up on programming three times before it stuck.
+</div>
 
-Interested in: OS internals, embedded Linux, real-time rendering, game engines, microcontrollers, security, and anything where the answer to "why is this slow" matters.
+---
 
-- 🗂 My biggest projects in:
-    - C++:
-        - https://github.com/mikolajlubiak/terminal_animation
-        - https://github.com/mikolajlubiak/pixelpin
-        - https://github.com/mikolajlubiak/vlkn
-        - https://github.com/mikolajlubiak/memory
-        - https://github.com/mikolajlubiak/espcon
-        - https://github.com/MathBoardProject/MathBoardAlgoML
-    - C/ASM:
-        - https://github.com/mikolajlubiak/gos
-    - Python:
-        - https://github.com/mikolajlubiak/motey
-    - Flutter:
-        - https://github.com/mikolajlubiak/pixelpin-app
+## Projects
 
-- 🐧 My biggest open source contributions:
-    - Intel® Cryptography Primitives: https://github.com/intel/cryptography-primitives/pull/95
-    - FTXUI: https://github.com/ArthurSonzogni/FTXUI/pull/938
+| Project | What it does |
+|---|---|
+| [**terminal_animation**](https://github.com/mikolajlubiak/terminal_animation) ![stars](https://img.shields.io/github/stars/mikolajlubiak/terminal_animation?style=flat-square&color=1976D2&label=) | Converts video, GIFs, and images to colored ASCII art in real time. Multithreaded C++. |
+| [**vlkn**](https://github.com/mikolajlubiak/vlkn) | Vulkan renderer with 13+ abstraction modules covering the full rendering pipeline. |
+| [**gos**](https://github.com/mikolajlubiak/gos) | x86 OS from scratch — 2-stage real-mode bootloader, FAT12 filesystem, kernel in C/ASM. |
+| [**pixelpin**](https://github.com/mikolajlubiak/pixelpin) + [**app**](https://github.com/mikolajlubiak/pixelpin-app) | BLE e-paper wearable on ESP32 with custom binary protocol and image dithering, paired with a Flutter app. |
+| [**espcon**](https://github.com/mikolajlubiak/espcon) | Game console engine running a software 3D rasterizer on an ESP32-S3 microcontroller. |
+| [**memory**](https://github.com/mikolajlubiak/memory) | Cross-platform terminal memory game. |
 
-- 🎥 You can find my project video showcases here:
-    - https://video.infosec.exchange/c/gall_anonim_/video-playlists
+---
 
-- 🗄 All of my projects are available at [GitHub](https://github.com/mikolajlubiak) or [Codeberg](https://codeberg.org/mikolajlubiak).
+## Contributions
 
-- 🤔 Other than programming I'm interested in biking, chess, open source, gym, Fediverse and the Linux kernel and ecosystem.
+- **[Intel® Cryptography Primitives #95](https://github.com/intel/cryptography-primitives/pull/95)** — Fixed SHA implementation: ~10% less CPU time, ~50% fewer instructions in multithreaded hashing workloads.
+- **[FTXUI #938](https://github.com/ArthurSonzogni/FTXUI/pull/938)** — Added `SliderWithCallback`. Merged by maintainer.
+- **Published in [PagedOut! #6](https://pagedout.institute/)** — Gynvael Coldwind's technical zine.
 
-- 📰 I write articles on [my website](https://lubiak.pages.dev/) when I have something interesting to say.
+---
 
-- 📬 You can get in contact with me by [email](mailto:lubiak@proton.me) ([PGP key](https://keys.openpgp.org/search?q=lubiak%40proton.me)), or [Signal](https://signal.me/#eu/nq4qY30m4xgeCZ7R5IGoSUGbBK0n8Jg1Axi0cxbl3zAQdo3ikJVFioC_didTHi_F).
+## Stats
 
-- 📄 If you consider hiring me, here is my [resume](https://lubiak.pages.dev/resume.pdf) and here is my [Linkedin](https://www.linkedin.com/in/lubiak/).
+<div align="center">
+
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=mikolajlubiak&show_icons=true&hide_border=true&theme=default&hide_title=true&include_all_commits=true&count_private=true&rank_icon=github)](https://github.com/mikolajlubiak)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mikolajlubiak&hide_border=true&theme=default&layout=compact&langs_count=6)](https://github.com/mikolajlubiak)
+
+</div>
+
+---
+
+## Other
+
+Interested in OS internals, embedded Linux, real-time rendering, game engines, and anything where the answer to "why is this slow?" matters.  
+Outside of code: biking, chess, gym, open source, Fediverse.
+
+I write occasionally on [my website](https://lubiak.pages.dev/).  
+Video project showcases on [PeerTube](https://video.infosec.exchange/c/gall_anonim_/video-playlists).
+
+[Resume](https://lubiak.pages.dev/resume.pdf) · [PGP key](https://keys.openpgp.org/search?q=lubiak%40proton.me) · [Signal](https://signal.me/#eu/nq4qY30m4xgeCZ7R5IGoSUGbBK0n8Jg1Axi0cxbl3zAQdo3ikJVFioC_didTHi_F)
 
