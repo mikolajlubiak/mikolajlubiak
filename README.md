@@ -2,8 +2,8 @@
 
 # Mikołaj Lubiak
 
-Systems programmer. I like knowing how things work — userspace, kernels, bootloaders, silicon.  
-C and C++ for a living and for fun.
+Systems programmer. C and C++ for a living and for fun.  
+I like knowing how things work: userspace, kernels, bootloaders, silicon.
 
 [![Email](https://img.shields.io/badge/email-lubiak%40proton.me-1976D2?style=flat-square&logo=protonmail&logoColor=white)](mailto:lubiak@proton.me)
 [![Website](https://img.shields.io/badge/website-lubiak.pages.dev-1976D2?style=flat-square&logo=firefox&logoColor=white)](https://lubiak.pages.dev/)
@@ -20,8 +20,8 @@ C and C++ for a living and for fun.
 |---|---|
 | [**terminal_animation**](https://github.com/mikolajlubiak/terminal_animation) ![stars](https://img.shields.io/github/stars/mikolajlubiak/terminal_animation?style=flat-square&color=1976D2&label=) | Converts video, GIFs, and images to colored ASCII art in real time. Multithreaded C++. |
 | [**vlkn**](https://github.com/mikolajlubiak/vlkn) | Vulkan renderer with 13+ abstraction modules covering the full rendering pipeline. |
-| [**gos**](https://github.com/mikolajlubiak/gos) | x86 OS from scratch — 2-stage real-mode bootloader, FAT12 filesystem, kernel in C/ASM. |
-| [**pixelpin**](https://github.com/mikolajlubiak/pixelpin) + [**app**](https://github.com/mikolajlubiak/pixelpin-app) | BLE e-paper wearable on ESP32 with custom binary protocol and image dithering, paired with a Flutter app. |
+| [**gos**](https://github.com/mikolajlubiak/gos) | x86 OS from scratch. 2-stage real-mode bootloader, FAT12 filesystem, kernel in C/ASM. |
+| [**pixelpin**](https://github.com/mikolajlubiak/pixelpin) + [**app**](https://github.com/mikolajlubiak/pixelpin-app) | BLE e-paper wearable on ESP32. Custom binary protocol, image dithering, Flutter companion app. |
 | [**espcon**](https://github.com/mikolajlubiak/espcon) | Game console engine running a software 3D rasterizer on an ESP32-S3 microcontroller. |
 | [**memory**](https://github.com/mikolajlubiak/memory) | Cross-platform terminal memory game. |
 
@@ -29,9 +29,9 @@ C and C++ for a living and for fun.
 
 ## Contributions
 
-- **[Intel® Cryptography Primitives #95](https://github.com/intel/cryptography-primitives/pull/95)** — Fixed SHA implementation: ~10% less CPU time, ~50% fewer instructions in multithreaded hashing workloads.
-- **[FTXUI #938](https://github.com/ArthurSonzogni/FTXUI/pull/938)** — Added `SliderWithCallback`. Merged by maintainer.
-- **Published in [PagedOut! #6](https://pagedout.institute/)** — Gynvael Coldwind's technical zine.
+- **[Intel® Cryptography Primitives #95](https://github.com/intel/cryptography-primitives/pull/95)** - Fixed SHA implementation: ~10% less CPU time, ~50% fewer instructions in multithreaded hashing workloads.
+- **[FTXUI #938](https://github.com/ArthurSonzogni/FTXUI/pull/938)** - Added `SliderWithCallback`. Merged by maintainer.
+- **Published in [PagedOut! #6](https://pagedout.institute/)** - Gynvael Coldwind's technical zine.
 
 ---
 
@@ -48,8 +48,8 @@ C and C++ for a living and for fun.
 
 ## Other
 
-Interested in OS internals, embedded Linux, real-time rendering, game engines, and anything where the answer to "why is this slow?" matters.  
-Outside of code: biking, chess, gym, open source, Fediverse.
+Into OS internals, embedded Linux, real-time rendering, game engines, and profiling.  
+Outside code: biking, chess, gym, open source, Fediverse.
 
 I write occasionally on [my website](https://lubiak.pages.dev/).  
 Video project showcases on [PeerTube](https://video.infosec.exchange/c/gall_anonim_/video-playlists).
