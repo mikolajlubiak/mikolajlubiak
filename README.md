@@ -4,7 +4,7 @@
 
 Systems programmer. C and C++ for a living and for fun.  
 Into OS internals, embedded Linux, real-time rendering, game engines, and profiling.  
-Outside code: biking, chess, gym, open source, Fediverse.
+Outside code: biking/bikepacking.
 
 [![Email](https://img.shields.io/badge/email-lubiak%40proton.me-1976D2?style=flat-square&logo=protonmail&logoColor=white)](mailto:lubiak@proton.me)
 [![Website](https://img.shields.io/badge/website-lubiak.pages.dev-1976D2?style=flat-square&logo=firefox&logoColor=white)](https://lubiak.pages.dev/)
