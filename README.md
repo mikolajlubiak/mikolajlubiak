@@ -17,6 +17,16 @@ Outside code: biking/bikepacking.
 
 ---
 
+<h2 align="center">Contributions</h2>
+
+| Contribution | What I did | How it works |
+|---|---|---|
+| [**Intel® Cryptography Primitives #95**](https://github.com/intel/cryptography-primitives/pull/95) | Fixed a redundant pointer assignment in the SHA `hashUpdate` path | In a multithreaded environment, writing a shared pointer twice forces other cores to invalidate their caches for that address. The redundant write caused extra cache-line bouncing; removing it gives ~10% less CPU time and ~50% fewer instructions in multithreaded hashing workloads. 21 files changed. |
+| [**FTXUI #938**](https://github.com/ArthurSonzogni/FTXUI/pull/938) | Added `SliderWithCallback` component to FTXUI, merged by maintainer | Extends `Slider` with a `std::function` callback that fires on every value change, so actions can run without polling. 4 files, 90 additions. |
+| [**PagedOut! #6**](https://pagedout.institute/) | Published a technical article | Gynvael Coldwind's free-form hacker/systems-programming zine. |
+
+---
+
 <h2 align="center">Projects</h2>
 
 | Project | What it does |
@@ -30,12 +40,3 @@ Outside code: biking/bikepacking.
 | [**physics_automata**](https://github.com/mikolajlubiak/physics_automata) | Interactive falling-sand physics simulation using cellular automata. Each cell carries a feature bitfield (Fluid / Solid / Gas / Moveable / Immovable). Every frame, movable solids fall straight down or diagonally with shuffled direction order; movable gases disperse downward in randomized directions. Mouse drawing with adjustable brush radius. Rendered via raylib OpenGL render texture updated each frame. |
 
 ---
-
-<h2 align="center">Contributions</h2>
-
-| Contribution | What I did | How it works |
-|---|---|---|
-| [**Intel® Cryptography Primitives #95**](https://github.com/intel/cryptography-primitives/pull/95) | Fixed a redundant pointer assignment in the SHA `hashUpdate` path | In a multithreaded environment, writing a shared pointer twice forces other cores to invalidate their caches for that address. The redundant write caused extra cache-line bouncing; removing it gives ~10% less CPU time and ~50% fewer instructions in multithreaded hashing workloads. 21 files changed. |
-| [**FTXUI #938**](https://github.com/ArthurSonzogni/FTXUI/pull/938) | Added `SliderWithCallback` component to FTXUI, merged by maintainer | Extends `Slider` with a `std::function` callback that fires on every value change, so actions can run without polling. 4 files, 90 additions. |
-| [**PagedOut! #6**](https://pagedout.institute/) | Published a technical article | Gynvael Coldwind's free-form hacker/systems-programming zine. |
-
