@@ -2,41 +2,46 @@
 
 # Mikołaj Lubiak
 
-Systems programmer. C and C++ for a living and for fun.  
-Into OS internals, embedded Linux, real-time rendering, game engines, and profiling.  
-Outside code: biking/bikepacking.
+**Senior Software Engineer · Embedded Linux & Systems**
+
+I build low-level software that has to be correct, fast and secure: embedded Linux platforms and security-critical system services at work, and real-time renderers on my own time. Based in Warsaw, Poland.
 
 [![Email](https://img.shields.io/badge/email-lubiak%40proton.me-1976D2?style=flat-square&logo=protonmail&logoColor=white)](mailto:lubiak@proton.me)
 [![Website](https://img.shields.io/badge/website-lubiak.pages.dev-1976D2?style=flat-square&logo=firefox&logoColor=white)](https://lubiak.pages.dev/)
 [![LinkedIn](https://img.shields.io/badge/linkedin-lubiak-1976D2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lubiak/)
-[![Codeberg](https://img.shields.io/badge/codeberg-mikolajlubiak-1976D2?style=flat-square&logo=codeberg&logoColor=white)](https://codeberg.org/mikolajlubiak)
 
-[Resume](https://lubiak.pages.dev/resume.pdf) · [PGP key](https://keys.openpgp.org/search?q=lubiak%40proton.me) · [Signal](https://signal.me/#eu/nq4qY30m4xgeCZ7R5IGoSUGbBK0n8Jg1Axi0cxbl3zAQdo3ikJVFioC_didTHi_F) · [PeerTube](https://video.infosec.exchange/c/gall_anonim_/video-playlists)
+[About me](https://lubiak.pages.dev/about/) · [Projects](https://lubiak.pages.dev/projects/) · [PGP key](https://keys.openpgp.org/search?q=lubiak%40proton.me)
 
 </div>
 
 ---
 
-<h2 align="center">Contributions</h2>
+At **Xperi** I work on the security and provisioning side of a Linux-based smart-TV operating system, from the boot chain to the cloud: secure boot and device identity, factory and over-the-air provisioning, platform hardening and vulnerability response across the kernel and user space. I write C and C++ for the kernel, bootloader and system services, and Python for provisioning tools and automation.
 
-| Contribution | What I did | How it works |
-|---|---|---|
-| [**Intel® Cryptography Primitives #95**](https://github.com/intel/cryptography-primitives/pull/95) | Fixed a redundant pointer assignment in the SHA `hashUpdate` path | In a multithreaded environment, writing a shared pointer twice forces other cores to invalidate their caches for that address. The redundant write caused extra cache-line bouncing; removing it gives ~10% less CPU time and ~50% fewer instructions in multithreaded hashing workloads. 21 files changed. |
-| [**FTXUI #938**](https://github.com/ArthurSonzogni/FTXUI/pull/938) | Added `SliderWithCallback` component to FTXUI, merged by maintainer | Extends `Slider` with a `std::function` callback that fires on every value change, so actions can run without polling. 4 files, 90 additions. |
-| [**PagedOut! #6**](https://pagedout.institute/) | Published a technical article | Gynvael Coldwind's free-form hacker/systems-programming zine. |
+Outside work I build things to understand how they work: Vulkan and software renderers, an x86 boot chain and firmware for microcontrollers.
+
+---
+
+<h2 align="center">Open source</h2>
+
+| Contribution | What I did |
+|---|---|
+| [**Intel® Cryptography Primitives Library, PR #95**](https://github.com/intel/cryptography-primitives/pull/95) | Fixed a multithreaded cache-thrashing bug in SHA-1/SHA-2 hash dispatch, where a shared function pointer was rewritten on every call, and measured it with `perf`: −48% instructions, −32% cache references and −10% CPU time in a 12-thread SHA-256 benchmark. Intel shipped a fix for the issue in v1.4.0. |
+| [**FTXUI, PR #938**](https://github.com/ArthurSonzogni/FTXUI/pull/938) | Added slider change callbacks (`SliderOption::on_change`) to this 10k-star C++ terminal UI library, shipped in v6.0. My terminal_animation app is listed in the project's showcase. |
+| [**Paged Out! #6**](https://pagedout.institute/download/PagedOut_006.pdf#page=31) | "E Ink backpack pin/patch", a one-page article about my PixelPin build in the hardware section of this free technical zine. |
 
 ---
 
 <h2 align="center">Projects</h2>
 
-| Project | What it does |
+| Project | What it is |
 |---|---|
-| [**terminal_animation**](https://github.com/mikolajlubiak/terminal_animation) ![stars](https://img.shields.io/github/stars/mikolajlubiak/terminal_animation?style=flat-square&color=1976D2&label=stars) | Converts video, GIFs, and images into colored ASCII art in the terminal at the source frame rate. A decoder thread pulls frames via OpenCV/FFMPEG and converts pixels to RGB-escaped characters; a separate render thread drives the FTXUI TUI. Threads synchronized with mutexes and `std::atomic` shared state. 27 Google Test unit tests. C++20. |
-| [**vlkn**](https://github.com/mikolajlubiak/vlkn) | Vulkan 3D renderer and game engine in C++20. 13+ abstractions over the Vulkan API: physical/logical device, swap chain with auto-resize, multi-pass rendering (opaque geometry + point-light billboards + ImGui overlay), OBJ model loading with vertex deduplication, mipmapped textures with anisotropic filtering, up to 16 dynamic Blinn-Phong point lights, 6-DOF camera at 512 Hz, push constants, descriptor sets, fixed-timestep game loop. |
-| [**gos**](https://github.com/mikolajlubiak/gos) | x86 OS from scratch. Stage 1 fits inside the 512-byte MBR and loads Stage 2 (a full C program) from disk via LBA-to-CHS conversion with retry logic. Stage 2 has a FAT12 driver (BPB parsing, FAT table traversal, root directory search, cluster-chain following) and loads the kernel. Custom `printf`, `memcpy`, `memset`, and string functions for 16-bit real mode. NASM + C (Watcom compiler). |
-| [**pixelpin**](https://github.com/mikolajlubiak/pixelpin) + [**app**](https://github.com/mikolajlubiak/pixelpin-app) | Wearable ESP32 e-paper badge. The Flutter app converts an image to RGB565 and streams it over BLE using a custom binary protocol with text-based command framing and raw data streaming. ESP32 firmware accumulates chunks through a state machine into two 1-bit framebuffers, runs Floyd-Steinberg dithering to map each pixel to black, white, or red, then refreshes the 2.9-inch tri-color e-paper display. Enters deep sleep after 5 minutes. C++ + Flutter. |
-| [**espcon**](https://github.com/mikolajlubiak/espcon) | Embedded game console engine on an ESP32-S3. Software 3D rasterizer (no GPU) loads OBJ meshes from on-chip LittleFS, runs model-view-projection, painter's-algorithm depth sorting, dot-product directional lighting, and pushes RGB565 frames to a TFT display over SPI at ~80 MHz. FreeRTOS for task management; GPIO buttons and ADC joystick with deadzone filtering. |
-| [**vectng**](https://github.com/mikolajlubiak/vectng) | 2D game engine built from scratch around an Entity-Component-System (ECS) architecture. Components include TransformComponent, SpriteComponent, Animation, ColliderComponent, GravityComponent (with sweep AABB collision: resolves X and Y axes independently), KeyboardController, ScrollComponent, and TileComponent. 55 unit tests. SDL2 + SDL_image. |
-| [**physics_automata**](https://github.com/mikolajlubiak/physics_automata) | Interactive falling-sand physics simulation using cellular automata. Each cell carries a feature bitfield (Fluid / Solid / Gas / Moveable / Immovable). Every frame, movable solids fall straight down or diagonally with shuffled direction order; movable gases disperse downward in randomized directions. Mouse drawing with adjustable brush radius. Rendered via raylib OpenGL render texture updated each frame. |
+| [**vlkn**](https://github.com/mikolajlubiak/vlkn) | A C++20 Vulkan renderer with a quaternion 6-DOF camera, an 8-slot texture sampler array with anisotropic filtering, Blinn-Phong lighting with 16 animated point lights, a fixed 512 Hz update loop and an ImGui debug overlay, built on swap-chain recreation (MAILBOX with FIFO fallback), two frames in flight synchronized with fences and semaphores, staging-buffer uploads, depth buffering, descriptor sets and push constants. |
+| [**espcon**](https://github.com/mikolajlubiak/espcon) | A real-time 3D renderer for an ESP32-S3 with no GPU: hand-written vector and matrix math, back-face culling, flat lighting and painter's-algorithm depth sorting, with triangles filled over 40 MHz SPI on ST7735/ILI9341 TFTs and OBJ meshes streamed from a LittleFS partition in flash. An analog joystick and buttons drive the camera. |
+| [**pixelpin**](https://github.com/mikolajlubiak/pixelpin) + [**app**](https://github.com/mikolajlubiak/pixelpin-app) | A wearable ESP32 e-paper badge. The firmware runs a custom BLE GATT protocol that streams an image in 512-byte chunks into two 1-bit framebuffers (black and red planes) and drives a 2.9-inch black/white/red panel, deep-sleeping when idle and waking on a GPIO pin (ESP32-C3). A Flutter app rotates, crops, dithers and packs images on the phone. Written up in Paged Out! #6. |
+| [**coneng**](https://github.com/mikolajlubiak/coneng) | A software 3D renderer: the whole triangle pipeline runs on the CPU, with matrix math, back-face culling, near-plane and screen-edge clipping, flat shading, perspective-correct texture mapping with a 1/w depth buffer, and OBJ loading. olcPixelGameEngine only presents the finished frame. |
+| [**gos**](https://github.com/mikolajlubiak/gos) | A two-stage x86 boot chain: a 512-byte NASM boot sector walks a FAT12 filesystem to load a 16-bit real-mode C second stage with a freestanding mini libc and a FAT12 driver, using BIOS disk services with retries. Debugged in QEMU and Bochs. |
+| [**terminal_animation**](https://github.com/mikolajlubiak/terminal_animation) ![stars](https://img.shields.io/github/stars/mikolajlubiak/terminal_animation?style=flat-square&color=1976D2&label=stars) | Plays video, GIFs and images as 24-bit color ASCII art in the terminal. A decode thread converts frames into colored character cells while a pacing thread drives the FTXUI interface at the source frame rate; shared state is guarded by mutexes and atomics. C++20, builds on Linux and Windows. |
+| [**physics_automata**](https://github.com/mikolajlubiak/physics_automata) | Falling-sand physics on a cellular automaton (movable solids, gas and walls) in C++ with raylib, compiled to WebAssembly with Emscripten. [Try it in the browser](https://lubiak.pages.dev/physics_automata/) (best on a desktop with a mouse). |
 
----
+More on [lubiak.pages.dev/projects](https://lubiak.pages.dev/projects/).
